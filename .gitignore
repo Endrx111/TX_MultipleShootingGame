@@ -1,0 +1,34 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+
+# Rider 忽略的文件
+/modules.xml
+/contentModel.xml
+/.idea.GAS.iml
+/projectSettingsUpdater.xml
+
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+
+# 已忽略包含查询文件的默认文件夹
+/queries/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# ----- 新增的 Unreal Engine 忽略规则 -----
+# 编译生成的临时文件
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 引擎自带文件
+Engine/
+
+# 其他不必要的文件
+*.log
+*.tmp
+*.pdb
